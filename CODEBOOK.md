@@ -11,24 +11,25 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Source files
 
 The following files have been used from the above dataset:
-. activity_labels.txt
-. features.txt
-. features_info.txt
-. test/X_test.txt
-. test/y_test.txt
-. test/subject_test.txt
-. train/X_train.txt
-. train/y_train.txt
-. train/subject_train.txt
+
+* activity_labels.txt
+* features.txt
+* features_info.txt
+* test/X_test.txt
+* test/y_test.txt
+* test/subject_test.txt
+* train/X_train.txt
+* train/y_train.txt
+* train/subject_train.txt
 
 ## Data clean up
 
 ### Step 1
 
 1. Reading data from the following files
-   . X_test.txt
-   . y_test.txt
-   . subject_test.txt
+   * X_test.txt
+   * y_test.txt
+   * subject_test.txt
 2. Setting the names of the columns from X_test.txt to the names in the features.txt file
 3. Setting the name of the column in y_test.txt to "Activity" and the column in subject_test.txt to "Subject"
 4. Merge the columns from the three data sets into one test data set
@@ -53,14 +54,16 @@ The following files have been used from the above dataset:
 2. Create a tidy data set with the average of each variable from the melted data set
 3. Write the tidy data set to file
 
-
 ## Variables
 
-Time domain signals are prefixed with "Time."
-Frequency domain signals are prefixed with "Frequency."
-Mean values have ".Mean" within name
-Standard deviations have ".Std" within name
+### Notes
 
+* Time domain signals are prefixed with "Time."
+* Frequency domain signals are prefixed with "Frequency."
+* Mean values have ".Mean" within name
+* Standard deviations have ".Std" within name
+
+### Names and description
 
 1. Subject  - The subject performing the activity (integer)
 2. Activity - The activity performed (character)
