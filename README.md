@@ -18,6 +18,10 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Files
 
+### README.md
+
+This file
+
 ### CODEBOOK.md
 
 The projects code book
@@ -39,4 +43,3 @@ After sourcing the script file run function executeAll() to perform all steps as
 * step4() - Performs step 1-4 in assignment
 * step5() - Performs step 1-5 in assignment
 * executeAll(reset=FALSE) - Executes all steps in assignment with the possibility to reset cached data
-* resetAll()

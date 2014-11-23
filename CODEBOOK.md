@@ -56,11 +56,14 @@ The following files have been used from the above dataset:
 
 ## Variables
 
+Time domain signals are prefixed with "Time."
+Frequency domain signals are prefixed with "Frequency."
+Mean values have ".Mean" within name
+Standard deviations have ".Std" within name
+
+
 1. Subject  - The subject performing the activity (integer)
 2. Activity - The activity performed (character)
-
-### Time domain signals - Mean value
-
 3. Time.Body.Acceleration.Mean.X - Body acceleration X direction (numeric)
 4. Time.Body.Acceleration.Mean.Y - Body acceleration Y direction (numeric)
 5. Time.Body.Acceleration.Mean.Z - Body acceleration Z direction (numeric)
@@ -81,9 +84,6 @@ The following files have been used from the above dataset:
 20. Time.Body.Acceleration.Jerk.Magnitude.Mean - Body acceleration jerk magnitude from Euclidean norm (numeric)
 21. Time.Body.Gyro.Magnitude.Mean - Body gyro magnitude from Euclidean norm (numeric)
 22. Time.Body.Gyro.Jerk.Magnitude.Mean - Body gyro jerk magnitude from Euclidean norm (numeric)
-
-### Frequency domain signals - Mean value
-
 23. Frequency.Body.Acceleration.Mean.X - Body acceleration X direction (numeric)
 24. Frequency.Body.Acceleration.Mean.Y - Body acceleration Y direction (numeric)
 25. Frequency.Body.Acceleration.Mean.Z - Body acceleration Z direction (numeric)
@@ -97,9 +97,6 @@ The following files have been used from the above dataset:
 33. Frequency.Body.Body.Acceleration.Jerk.Magnitude.Mean - Body body acceleration magnitude from Euclidean norm (numeric)
 34. Frequency.Body.Body.Gyro.Magnitude.Mean - Body body gyro magnitude from Euclidean norm (numeric)
 35. Frequency.Body.Body.Gyro.Jerk.Magnitude.Mean - Body body gyro jerk magnitude from Euclidean norm (numeric)
-
-### Time domain signals - Standard deviation
-
 36. Time.Body.Acceleration.Std.X - Body acceleration X direction (numeric)
 37. Time.Body.Acceleration.Std.Y - Body acceleration Y direction (numeric)
 38. Time.Body.Acceleration.Std.Z - Body acceleration Z direction
@@ -120,9 +117,6 @@ The following files have been used from the above dataset:
 53. Time.Body.Acceleration.Jerk.Magnitude.Std - Body acceleration jerk magnitude from Euclidean norm (numeric)
 54. Time.Body.Gyro.Magnitude.Std - Body gyro magnitude from Euclidean norm (numeric)
 55. Time.Body.Gyro.Jerk.Magnitude.Std - Body gyro jerk magnitude from Euclidean norm (numeric)
-
-### Frequency domain signals - Standard deviation
-
 56. Frequency.Body.Acceleration.Std.X - Body acceleration X direction (numeric)
 57. Frequency.Body.Acceleration.Std.Y - Body acceleration Y direction (numeric)
 58. Frequency.Body.Acceleration.Std.Z - Body acceleration Z direction (numeric)
