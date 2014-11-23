@@ -25,16 +25,16 @@ The projects code book
 Script for downloading, merging, cleaning and producing tidy data sets
 After sourcing the script file run function executeAll() to perform all steps as described above.
 
-* getTestData() - Retrieves and create one data set from test data
-* getTrainingData() - Retrieves and create one data set from training data
-* getRawData() - Retrieves and create one data set from test and training data
-* getFeatures() - Retrieves original feature names
-* getNames() - Returns the descriptive variable names
-* getActivityLabels - Retrieves activities and their labels
-* step1() - Performs step 1 in assignment and cache the result
-* step2() - Performs step 1-2 in assignment
-* step3() - Performs step 1-3 in assignment
-* step4() - Performs step 1-4 in assignment
-* step5() - Performs step 1-5 in assignment
-* executeAll(reset=FALSE) - Executes all steps in assignment with the possibility to reset cached data
-* resetAll()
+- getTestData() - Retrieves and create one data set from test data
+- getTrainingData() - Retrieves and create one data set from training data
+- getRawData() - Retrieves and create one data set from test and training data
+- getFeatures() - Retrieves original feature names
+- getNames() - Returns the descriptive variable names
+- getActivityLabels - Retrieves activities and their labels
+- step1() - Performs step 1 in assignment and cache the result
+- step2() - Performs step 1-2 in assignment
+- step3() - Performs step 1-3 in assignment
+- step4() - Performs step 1-4 in assignment
+- step5() - Performs step 1-5 in assignment
+- executeAll(reset=FALSE) - Executes all steps in assignment with the possibility to reset cached data
+- resetAll()
