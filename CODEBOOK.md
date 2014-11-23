@@ -25,49 +25,49 @@ The following files have been used from the above dataset:
 
 ### Step 1
 
-a. Reading data from the following files
+1. Reading data from the following files
    . X_test.txt
    . y_test.txt
    . subject_test.txt
-b. Setting the names of the columns from X_test.txt to the names in the features.txt file
-c. Setting the name of the column in y_test.txt to "Activity" and the column in subject_test.txt to "Subject"
-d. Merge the columns from the three data sets into one test data set
-e. Do the corresponding operation a-d with the files X_train.txt, y_train.txt and subject_train.txt into one train data set
-f. Append the rows of the test data set to the training data set
+2. Setting the names of the columns from X_test.txt to the names in the features.txt file
+3. Setting the name of the column in y_test.txt to "Activity" and the column in subject_test.txt to "Subject"
+4. Merge the columns from the three data sets into one test data set
+5. Do the corresponding operation a-d with the files X_train.txt, y_train.txt and subject_train.txt into one train data set
+6. Append the rows of the test data set to the training data set
 
 ### Step 2
 
-a. Select the columns "Subject", "Activity" and all columns of mean value and standard deviation
+1. Select the columns "Subject", "Activity" and all columns of mean value and standard deviation
 
 ### Step 3
 
-a. Convert all the numerical values of "Activity" column into corresponding values from activity_labels.txt
+1. Convert all the numerical values of "Activity" column into corresponding values from activity_labels.txt
 
 ### Step 4
 
-a. Assign descriptive column names in the data set according to descriptions in file features_info.txt
+1. Assign descriptive column names in the data set according to descriptions in file features_info.txt
 
 ### Step 5
 
-a. Melt the data set with id variables "Subject" and "Activity"
-b. Create a tidy data set with the average of each variable from the melted data set
-c. Write the tidy data set to file
+1. Melt the data set with id variables "Subject" and "Activity"
+2. Create a tidy data set with the average of each variable from the melted data set
+3. Write the tidy data set to file
 
 
 ## Variables
 
- 1. Subject  - The subject performing the activity (integer)
- 2. Activity - The activity performed (character)
+1. Subject  - The subject performing the activity (integer)
+2. Activity - The activity performed (character)
 
 ### Time domain signals - Mean value
 
- 3. Time.Body.Acceleration.Mean.X - Body acceleration X direction (numeric)
- 4. Time.Body.Acceleration.Mean.Y - Body acceleration Y direction (numeric)
- 5. Time.Body.Acceleration.Mean.Z - Body acceleration Z direction (numeric)
- 6. Time.Gravity.Acceleration.Mean.X - Gravity acceleration X direction (numeric)
- 7. Time.Gravity.Acceleration.Mean.Y - Gravity acceleration Y direction (numeric)
- 8. Time.Gravity.Acceleration.Mean.Z - Gravity acceleration Z direction (numeric)
- 9. Time.Body.Acceleration.Jerk.Mean.X - Body acceleration jerk X direction (numeric)
+3. Time.Body.Acceleration.Mean.X - Body acceleration X direction (numeric)
+4. Time.Body.Acceleration.Mean.Y - Body acceleration Y direction (numeric)
+5. Time.Body.Acceleration.Mean.Z - Body acceleration Z direction (numeric)
+6. Time.Gravity.Acceleration.Mean.X - Gravity acceleration X direction (numeric)
+7. Time.Gravity.Acceleration.Mean.Y - Gravity acceleration Y direction (numeric)
+8. Time.Gravity.Acceleration.Mean.Z - Gravity acceleration Z direction (numeric)
+9. Time.Body.Acceleration.Jerk.Mean.X - Body acceleration jerk X direction (numeric)
 10. Time.Body.Acceleration.Jerk.Mean.Y - Body acceleration jerk Y direction (numeric)
 11. Time.Body.Acceleration.Jerk.Mean.Z - Body acceleration jerk Z direction (numeric)
 12. Time.Body.Gyro.Mean.X - Body gyro X direction (numeric)
